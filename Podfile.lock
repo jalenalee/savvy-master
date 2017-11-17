@@ -1,0 +1,112 @@
+PODS:
+  - Firebase/Auth (4.0.4):
+    - Firebase/Core
+    - FirebaseAuth (= 4.0.0)
+  - Firebase/Core (4.0.4):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.4)
+  - Firebase/Database (4.0.4):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.0.0)
+  - Firebase/Storage (4.0.4):
+    - Firebase/Core
+    - FirebaseStorage (= 2.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.4):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseDatabase (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseStorage (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMSessionFetcher/Core (1.1.11)
+  - ISHPullUp (1.0.5)
+  - Kingfisher (3.10.3)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - PMAlertController (2.1.2)
+  - RecordButton (1.0.2)
+  - SendGrid (0.2.3)
+  - SVProgressHUD (2.1.2)
+  - SwiftLocation (2.0.7)
+  - SwiftyCam (2.4.0)
+  - SwiftyJSON (3.1.4)
+  - TextFieldEffects (1.3.3)
+  - TwicketSegmentedControl (0.1.2)
+
+DEPENDENCIES:
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Storage
+  - ISHPullUp
+  - Kingfisher
+  - PMAlertController
+  - RecordButton
+  - SendGrid (from `https://github.com/scottkawai/sendgrid-swift.git`)
+  - SVProgressHUD
+  - SwiftLocation
+  - SwiftyCam
+  - SwiftyJSON
+  - TextFieldEffects
+  - TwicketSegmentedControl
+
+EXTERNAL SOURCES:
+  SendGrid:
+    :git: https://github.com/scottkawai/sendgrid-swift.git
+
+CHECKOUT OPTIONS:
+  SendGrid:
+    :commit: fb6ee0e16f56994622c599ad5e990cd4de6d4ea9
+    :git: https://github.com/scottkawai/sendgrid-swift.git
+
+SPEC CHECKSUMS:
+  Firebase: 1492bf04e1b73a7353b4fb2cf5a20bac9692f341
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseAuth: ebb6abcbabae00fc47446d690c19ce68d8484fde
+  FirebaseCore: cfc042628ef9f20debe09c0eb683135fcd404cb4
+  FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseStorage: 8110a1ed2034c8fbfd83890d2acc9cdbbd99afec
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 5ad62e8200fa00ed011fe5e08d27fef72c5b1429
+  ISHPullUp: 2a7208631422b91c7d5ce4556c86d182921823df
+  Kingfisher: a0ac82dc5bcf0388dd74b294cf2cc13730c63436
+  nanopb: 22bc080fa3955e2116b6ff3ee6c2cb3c15ab97cb
+  PMAlertController: 0fbcc3d1cee86ee0bd85f693ca85f6388e504ec8
+  RecordButton: 76677be0f4b94f8a387454a23b4b64bd9b6c0e51
+  SendGrid: 89495bb00bdeb8a87010c0dc60338c62b87d4311
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftLocation: 1fe2e15a5812e961496e82eeaca71d03e829e47a
+  SwiftyCam: cb83b9a8e181f70fb741d30cea724c6b045a4549
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TextFieldEffects: 8706f53525f1ce51c8921b7af32237caab50c467
+  TwicketSegmentedControl: 6d7a4cf243657e0ac3f00d06d873a25334c04042
+
+PODFILE CHECKSUM: fb949aabc98a9e58f336bc02989d60d2a8fbae4a
+
+COCOAPODS: 1.2.1
